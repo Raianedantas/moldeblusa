@@ -133,7 +133,7 @@ function enviarValores() {
             var comprimentoTotalValue = document.getElementsByName('inputField3')[0].value;
             var larguradoBracoValue = document.getElementsByName('inputField4')[0].value;
             var ombroValue = document.getElementsByName('inputField5')[0].value;
-            var separacaodoBistoValue = document.getElementsByName('inputField6')[0].value;
+            var separacaodoBustoValue = document.getElementsByName('inputField6')[0].value;
             	
             evalInput(alturadoCorpoValue);
             evalInput1(bustoValue);
@@ -141,6 +141,6 @@ function enviarValores() {
             evalInput3(comprimentoTotalValue);
 	    evalInput4(larguradoBracoValue);
             evalInput5(ombroValue);
-	    evalInput6(separacaodoBistoValue);
+	    evalInput6(separacaodoBustoValue);
             
 }
