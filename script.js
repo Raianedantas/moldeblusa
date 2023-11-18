@@ -124,3 +124,23 @@ function evalInput(strInput) {
     // Retorna falso para evitar o envio do formulário
     return false;
     }
+
+
+function enviarValores() {
+            var alturadoCorpoValue = document.getElementsByName('inputField')[0].value;
+            var bustoValue = document.getElementsByName('inputField1')[0].value;
+            var cinturaValue = document.getElementsByName('inputField2')[0].value;
+            var comprimentoTotalValue = document.getElementsByName('inputField3')[0].value;
+            var larguradoBracoValue = document.getElementsByName('inputField4')[0].value;
+            var ombroValue = document.getElementsByName('inputField5')[0].value;
+            var separacaodoBistoValue = document.getElementsByName('inputField6')[0].value;
+            	
+            evalInput(alturadoCorpoValue);
+            evalInput1(bustoValue);
+            evalInput2(cinturaValue);
+            evalInput3(comprimentoTotalValue);
+	    evalInput4(larguradoBracoValue);
+            evalInput5(ombroValue);
+	    evalInput6(separacaodoBistoValue);
+            
+}
